@@ -1,0 +1,33 @@
+{
+  "name": "@sitek94/lib",
+  "description": "Useless package, but with semantic versioning!",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "jest",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "jest": "^27.3.1",
+    "semantic-release": "^18.0.0"
+  },
+  "license": "MIT",
+  "author": "Maciek Sitkowski <msitkowski94@gmail.com> (https://github.com/sitek94)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sitek94/lib.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
