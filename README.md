@@ -19,4 +19,3 @@ you should check it out!
 1. `npm install`
 2. Update the `package.json` file with your own details
 3. Create NPM token and add it to your GitHub secrets
-   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
