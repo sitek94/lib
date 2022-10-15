@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "commit": "git-cz",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
